@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    background-color: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.opcoes
+{
+    border-width: 2;
+    border-color: green;
+    border-style: double;
+
+}
+
+.opcoes img {
+    margin: 10px;
+    width: 118px;
+    height: 109px;
+    cursor: pointer;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    border-width: 2;
+    border-color: red;
+    border-style: double;
+}
+
+.resultado img {
+    margin: 10px;
+    width: 118px;
+    height: 109px;
+    cursor: pointer;
+}
+
+.borda
+{
+    border-width: 1;
+    border-color: aquamarine;
+    border-style: double;
+}
+
+.bordaInicial
+{
+    border-width: 1;
+    border-color: lightskyblue;
+    border-style: dotted;
+}
+
+#mensagem
+{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}

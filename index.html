@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo Papel Tesoura Pedra</title>
+        <link rel="stylesheet" href="./assets/css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Jogo Papel Tesoura Pedra</h1>
+            <p>J o g a d o r  -  V o c ê   -   ( E s c o l h a) </p>
+            <div class="opcoes">
+                <img id="pedrau" src="./assets/Imagens/Pedra.png" alt="Pedra" onclick="jogar('pedra')">
+                <img id="papelu" src="./assets/Imagens/Papel.png" alt="Papel" onclick="jogar('papel')">
+                <img id="tesourau" src="./assets/Imagens/Tesoura.png" alt="Tesoura" onclick="jogar('tesoura')">
+            </div>
+            <div> 
+                <p>C o m p u t a d o r    e s c o l h e u</p>   
+                <div class="resultado">
+                    <p id="mensagem"></p>
+                    <div>
+                        <img id="imagem" src="./assets/Imagens/Interrogacao.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/javascript/script.js"></script>
+    </body>
+</html>
